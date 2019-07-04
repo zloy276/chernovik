@@ -1,0 +1,150 @@
+body {
+  background: #FF6347;
+}
+
+.main_container {
+  position: absolute;
+  width: 15%;
+  height: 320px;
+  background: none;
+}
+
+.flip_card {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.flip_card:hover {
+  transform: rotateY(180deg);
+}
+
+.front_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 20% 5% 0% 5%;
+  background: #89b6ff;
+  color: #000;
+}
+
+.back_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  padding-top: 20% 5% 0% 5%;
+  background: #474b51;
+  color: #fff;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.main_container2 {
+  left: 16%;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+.main_container3 {
+  left: 33%;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container4 {
+  left: 50%;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container5 {
+  left: 67%;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container7 {
+  left: 84%;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+.main_container8 {
+  top: 330px;
+  position: absolute;
+  width: 15%;
+  height: 320px;
+  background: none;
+}
+
+
+.main_container9 {
+  left: 16%;
+  top: 330px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+.main_container10 {
+  left: 33%;
+  top: 330px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container11 {
+  left: 50%;
+  top: 330px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container12 {
+  left: 67%;
+  top: 330px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+.main_container13 {
+  left: 84%;
+  top: 330px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+}
+
+
+
+
